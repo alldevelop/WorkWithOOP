@@ -14,7 +14,7 @@ public class ApplicationRunner {
         Shape triangle = new Triangle();
         Shape circle = new Circle();
         Shape square = new Square();
-/
+
     }
 
 }
