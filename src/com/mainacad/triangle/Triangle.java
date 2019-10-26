@@ -1,6 +1,9 @@
 package com.mainacad.triangle;
 
-public class Triangle {
+import com.mainacad.abstr.AbstractShape;
+import com.mainacad.abstr.Shape;
+
+public class Triangle extends AbstractShape {
     private double height;
     private double base;
 
@@ -19,7 +22,7 @@ public class Triangle {
     public void setBase(double base) {
         this.base = base;
     }
-
+    @Override
     public double getArea() {
         return 0.5 * height * base;
     }
